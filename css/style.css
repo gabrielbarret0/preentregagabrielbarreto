@@ -1,0 +1,281 @@
+/*CSS INDEX PAGINA PRINCIPAL*/
+
+body {
+  margin: 0;
+  background-color: rgb(66, 64, 64);
+}
+
+.header1 {
+  width: 100%;
+  height: 300px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+}
+
+.h-1 {
+  margin: 0 auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  display: auto;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 5rem;
+  display: inline-block;
+}
+
+header p {
+  margin-top: 0px;
+  font-family: "Pacifico", cursive;
+}
+
+.tipboton {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(219, 215, 215);
+  color: black;
+  padding-top: 15px;
+  border-radius: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1, 5rem;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.nav {
+  color: white;
+  padding-right: 10px;
+  display: flex;
+  justify-content: right;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  background-color: black;
+}
+
+nav li {
+  display: inline;
+  padding: 80px;
+}
+
+.contenedor {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contenedor1 {
+  display: block;
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+.contenedor2 {
+  width: 850px;
+  height: 900px;
+  color: white;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.caja1 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  padding: auto;
+  margin: 0 auto;
+  margin-left: 15px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.caja2 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.caja3 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  padding-top: 10px;
+  margin-left: 15px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.caja4 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgb(134, 129, 129);
+  color: #fbfbfc;
+  font-size: 23px;
+  text-align: right;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.redes {
+  color: black;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  text-align: left;
+}
+
+.logo-footer {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.contacto {
+  width: 200px;
+  height: 200px;
+  display: inline;
+  padding-top: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+/*PAGINA ABOUT ME */
+
+.contenedor3 {
+  display: flex;
+  justify-content: center;
+  width: 1650px;
+  height: 450px;
+  color: white;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 20px;
+  background-position: left;
+}
+
+/*PAGINA CONTACTO*/
+
+.caja-contacto {
+  display: inline-block;
+  width: 100px;
+  height: 1200px;
+  padding: auto;
+  margin: 0 auto;
+  margin-left: 15px;
+  background-color: rgb(126, 125, 125);
+  border-radius: 20px;
+}
+
+.form {
+  padding: 10px 10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  justify-content: none;
+  color: white;
+  font-size: 30px;
+}
+
+.label {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+}
+
+/*PAGINA TIPS */
+
+.contenedor-t {
+  width: 1650px;
+  height: 550px;
+  color: white;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 20px;
+  background-position: left;
+}
+
+.contenedor-t .caja-tips {
+  color: black;
+  display: inline-block;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  margin: 30px;
+  background-color: whitesmoke;
+}
+
+.caja-imagen {
+  color: black;
+  display: inline-block;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  margin: 30px;
+  background-color: whitesmoke;
+}
+
+/*PAGINA GALERIA*/
+
+.caja-g {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+article h2 {
+  color: white;
+  font-size: 40px;
+}
